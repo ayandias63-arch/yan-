@@ -1,50 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yan AI - Automatización Inteligente</title>
+    <title>Yan AI Solutions | Especialistas em IA</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 40px; background-color: #f9f9f9; }
-        header { text-align: center; padding: 60px 20px; background: #128C7E; color: white; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { margin: 0; font-size: 2.5em; }
-        .container { background: white; padding: 30px; border-radius: 15px; margin-top: -30px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        h2 { color: #128C7E; border-bottom: 2px solid #ece5dd; padding-bottom: 10px; }
-        .service-list { display: grid; grid-template-columns: 1px 1px; gap: 20px; list-style: none; padding: 0; }
-        @media (max-width: 600px) { .service-list { grid-template-columns: 1fr; } }
-        footer { font-size: 0.9em; text-align: center; margin-top: 50px; color: #777; }
-        .privacy-box { background: #f0f2f5; padding: 20px; border-radius: 10px; font-size: 0.9em; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        .header { background-color: #1a7f64; color: white; padding: 60px 20px; text-align: center; border-bottom: 5px solid #145e4a; }
+        .header h1 { margin: 0; font-size: 2.5em; }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .container { max-width: 800px; margin: -40px auto 40px; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        h2 { color: #1a7f64; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 15px; }
+        .privacy-box { background: #f9f9f9; padding: 25px; border-radius: 8px; margin-top: 40px; border-left: 5px solid #1a7f64; }
+        .footer { text-align: center; padding: 30px; font-size: 0.9em; color: #777; border-top: 1px solid #eee; }
+        .footer a { color: #1a7f64; text-decoration: none; font-weight: bold; }
+        
+        /* Estilos para o botão flutuante do WhatsApp */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Yan AI Solutions</h1>
-        <p>Impulsando empresas con Inteligencia Artificial 24/7</p>
-    </header>
 
-    <div class="container">
-        <section>
-            <h2>Lo que hacemos por tu negocio</h2>
-            <p>Ayudamos a empresas de cualquier sector a escalar sus ventas y mejorar su atención al cliente mediante tecnología de vanguardia.</p>
-            <ul>
-                <li><strong>Asistentes Virtuales Inteligentes:</strong> Bots que entienden, razonan y venden en WhatsApp.</li>
-                <li><strong>Automatización de Procesos:</strong> Ahorra horas de trabajo manual en soporte y ventas.</li>
-                <li><strong>Integración Oficial:</strong> Conectamos tu negocio con la API oficial de WhatsApp (Meta).</li>
-                <li><strong>IA Multimodal:</strong> Sistemas capaces de procesar texto, audio y visión.</li>
-            </ul>
-        </section>
+<div class="header">
+    <h1>Yan AI Solutions</h1>
+    <p>Impulsionando empresas com Inteligência Artificial 24/7</p>
+</div>
 
-        <section id="privacidad">
-            <h2>Política de Privacidad</h2>
-            <div class="privacy-box">
-                <p>En <strong>Yan AI Solutions</strong>, la seguridad de los datos es nuestra prioridad. Cumplimos con los estándares de Meta para el manejo de información. Los datos procesados a través de nuestras integraciones se utilizan estrictamente para el funcionamiento de los servicios contratados por el cliente.</p>
-                <p>No vendemos ni compartimos información personal con terceros. Para cualquier consulta legal o de datos, contáctanos en: <strong>contacto@yan.net.br</strong></p>
-            </div>
-        </section>
+<div class="container">
+    <h2>O que fazemos pelo seu negócio</h2>
+    <p>Ajudamos empresas de qualquer setor a escalar suas vendas e melhorar o atendimento ao cliente através de tecnologia de ponta.</p>
+    
+    <ul>
+        <li><strong>Assistentes Virtuais Inteligentes:</strong> Bots que entendem, raciocinam e vendem pelo WhatsApp.</li>
+        <li><strong>Automação de Processos:</strong> Economize horas de trabalho manual em suporte e vendas.</li>
+        <li><strong>Integração Oficial:</strong> Conectamos seu negócio com a API oficial do WhatsApp (Meta).</li>
+        <li><strong>IA Multimodal:</strong> Sistemas capazes de processar texto, áudio e visão.</li>
+    </ul>
+
+    <div id="privacidad" class="privacy-box">
+        <h2>Política de Privacidade</h2>
+        <p>Na <strong>Yan AI Solutions</strong>, a segurança dos dados é nossa prioridade. Cumprimos os padrões da Meta para o tratamento de informações. Os dados processados através de nossas integrações são utilizados estritamente para o funcionamento dos serviços contratados pelo cliente.</p>
+        <p>Para suporte ou consultas legais, entre em contato em: <strong>ayan63@gmail.com</strong></p>
     </div>
+</div>
 
-    <footer>
-        &copy; 2026 Yan AI Solutions | Brasil | Expertos en Automatización
-    </footer>
+<div class="footer">
+    <p>&copy; 2026 Yan AI Solutions | Brasil | Especialistas em Automação</p>
+    <p>Site oficial: <a href="https://www.yan.net.br">www.yan.net.br</a> | Contato: <a href="mailto:ayan63@gmail.com">ayan63@gmail.com</a></p>
+</div>
+
+<a href="https://wa.me/5551989866014" class="whatsapp-btn" target="_blank">
+    Falar no WhatsApp
+</a>
+
 </body>
 </html>
